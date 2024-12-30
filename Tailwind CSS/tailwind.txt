@@ -1,0 +1,10 @@
+npm init -y
+
+npm install _d tailwindcss
+
+Add html and js ij content of tailwind.config.js
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+
+tubitv

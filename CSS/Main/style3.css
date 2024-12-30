@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(56, 100, 171);
+}
+
+
+#sanjay{
+    background-color: black;
+    height: 60px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    width: 1500px;
+    margin-left: 200px;
+}
+
+#main{
+    margin-left: 10px;
+    color: #f08804;
+    text-decoration: none;
+}
+
+#accounts{
+    margin-left: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+#cart{
+    margin-left: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact{
+    margin-left: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+#box{
+    margin-left: 200px;
+}
+
+#search{
+    background-color: #f08804;
+    color: white;
+}

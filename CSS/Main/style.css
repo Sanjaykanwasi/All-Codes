@@ -1,0 +1,64 @@
+h2 {
+    color: crimson;
+    font-size: 25px;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#masoom{
+    color: blueviolet;
+    font-weight: 400;
+}
+
+#cheeku{
+    color: rgb(163, 29, 29);
+    font-weight: 400;
+}
+
+.Gangs{
+    color: cornflowerblue;
+    font-weight: 400;
+
+}
+
+#main{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+#lorem{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+#rare{
+    
+    background-color: black;
+    height: 500px;
+    width: 2000px;
+    border-style: solid;
+    border-color: aqua;
+    
+}
+
+#me{
+    align-content: center;
+    align-items: center;
+}
+
+#sa{
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 0px;
+    padding-left: 100px;
+    padding-top: 100px;
+}

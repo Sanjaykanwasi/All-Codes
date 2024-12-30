@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+
+#traffic{
+    background-color: black;
+    height: 700px;
+    width: 300px;
+    margin-left: 860px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+#red{
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#yellow{
+    background-color: yellow;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+#green{
+    background-color: green;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 100px;
+}

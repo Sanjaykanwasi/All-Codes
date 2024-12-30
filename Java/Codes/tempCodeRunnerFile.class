@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class lambda {
+   public lambda() {
+   }
+
+   public static void main(String[] var0) {
+      ashu var1 = () -> {
+         System.out.println("Ashu run!!!!!!!!");
+      };
+      var1.run();
+   }
+}

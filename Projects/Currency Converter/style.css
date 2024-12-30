@@ -1,0 +1,94 @@
+/* ALL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+.main_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #725d68;
+}
+
+/* Conatiner */
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  width: 40vh;
+}
+
+/* FORM */
+form {
+  margin: 2rem 0 1rem 0;
+}
+
+form select,
+input,
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+form input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+/* Drop Down */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Exchange Icon */
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Select container */
+.select-container img {
+  max-width: 2.5rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+/* Message box */
+.msg {
+  margin: 2rem 0 2rem 0;
+}
+
+/* Convert button */
+
+form button {
+  height: 3rem;
+  background-color: #a8b4a5;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+

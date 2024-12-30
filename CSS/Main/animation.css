@@ -1,0 +1,36 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position: relative;
+    top: 350px;
+    left: 200px;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes colorchange {
+
+    0%{
+        background-color: aqua; left: 200px;
+    }
+
+    50%{
+        background-color: brown; left: 400px;
+    }
+
+    100%{
+        background-color: palevioletred; left: 600px;
+    }
+    
+}

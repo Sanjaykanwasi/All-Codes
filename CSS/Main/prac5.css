@@ -1,0 +1,12 @@
+div{
+    height: 600px;
+    width: 800px;
+    background-image: url("Imgages/su30.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+    bottom: 110px;
+}
+
+#end{
+}
