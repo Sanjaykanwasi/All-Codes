@@ -3,6 +3,7 @@ import java.util.*;
 public class _23_twoD_array {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of rows and columns = ");

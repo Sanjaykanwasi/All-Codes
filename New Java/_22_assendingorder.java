@@ -17,6 +17,8 @@ public class _22_assendingorder {
     }
 
     public static void main(String[] args) {
+        
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         int arr[] = new int[5];

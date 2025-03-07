@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class _77_single_num {
    
     public static int single_num(int arr[]){

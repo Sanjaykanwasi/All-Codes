@@ -21,6 +21,8 @@ public class _24_search_2D {
     }
 
     public static void main(String[] args) {
+        
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of rows and columns = ");
@@ -42,3 +44,4 @@ public class _24_search_2D {
         searchIndex(matrix, x, row, columns);
     }
 }
+

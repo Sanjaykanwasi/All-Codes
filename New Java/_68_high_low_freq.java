@@ -3,7 +3,7 @@ import java.util.*;
 public class _68_high_low_freq {
     
     public static void high_low_freq(int arr[], int n){
-        
+        // TO find the highest and lowest frequency of an element in an array
 
     }
     

@@ -2,6 +2,7 @@ import java.util.*;
 
 public class _73_rotate_array_n {
     public static void main(String[] args) {
+       @SuppressWarnings("resource")
        Scanner sc = new Scanner(System.in);
        
         int arr[] = {1, 2, 3, 4, 5, 6, 7};

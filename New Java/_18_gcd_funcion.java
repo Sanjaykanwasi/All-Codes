@@ -17,6 +17,7 @@ public class _18_gcd_funcion {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the Numbers = ");

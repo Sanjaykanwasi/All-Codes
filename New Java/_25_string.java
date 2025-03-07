@@ -3,6 +3,7 @@ import java.util.*;
 public class _25_string {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Firstname = ");
