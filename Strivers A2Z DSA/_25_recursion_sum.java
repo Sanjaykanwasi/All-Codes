@@ -18,12 +18,14 @@ public class _25_recursion_sum {
     
     public static void main(String[] args){
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
         sc.nextLine();
         int sum = 0;
+        print_sum(n, sum);
 
     }   
 }
