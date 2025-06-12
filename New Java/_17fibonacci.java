@@ -16,9 +16,8 @@ public class _17fibonacci {
             a = b;
             b = c;
         }
-
     }
-
+    
     public static void main(String[] args) {
         
         @SuppressWarnings("resource")

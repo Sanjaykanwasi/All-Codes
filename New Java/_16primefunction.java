@@ -8,7 +8,7 @@ public class _16primefunction {
         int flag = 0;
 
         if (a == 0 || a == 1) {
-            System.out.println("The Nuumber is not Prime");
+            System.out.println("The Number is not Prime");
             return;
         } else {
             for (int i = 2; i <= m; i++) {
