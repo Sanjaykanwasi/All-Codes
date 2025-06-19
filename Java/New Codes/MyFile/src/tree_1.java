@@ -148,11 +148,10 @@ public class tree_1 {
             int diam2 = diameter(root.right);
             int diam3 = height(root.left) + height(root.right) + 1;
 
-            return Math.max(diam3, Math.min(diam1, diam2));
+            return Math.max(diam3, Math.max(diam1, diam2));
         }
 
         // ARPOACH 2 FOR DIAMETER WITH O(n) TIME
-
         static class TreeInfo{
             int ht;
             int diam;
