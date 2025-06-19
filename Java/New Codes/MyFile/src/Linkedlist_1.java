@@ -89,7 +89,6 @@ public class Linkedlist_1 {
         }
 
         //Reversing through Recursion
-
         public Node reverserecursion(Node head){
 
             if(head == null || head.next ==null){
@@ -98,12 +97,11 @@ public class Linkedlist_1 {
 
            Node Newhead = reverserecursion(head.next);
            head.next.next = head;
-           head = null;
+           head.next = null;
 
            return Newhead;
         }
     // Reversing the list   
-
     public void reverselist(){
 
         if(head == null || head.next == null){
@@ -156,9 +154,10 @@ public class Linkedlist_1 {
       //  list.deletestart();
       //  list.deleteend();
      //   list.addfirst("is");
+
         list.printlist();
         System.out.println(list.getsize());
-       list.head =  list.reverserecursion(list.head);
+        list.head =  list.reverserecursion(list.head);
         list.printlist();
     }
 }

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 class pen{ 
     String colour;
@@ -17,7 +17,7 @@ class pen{
 
 public class penclass{
     public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in); 
+    //    Scanner sc = new Scanner(System.in); 
        pen obj1 = new pen();
        pen obj2 = new pen();
 

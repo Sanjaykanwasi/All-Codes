@@ -38,6 +38,7 @@ public class queueusing_LL {
                 return -1;
             }
 
+            // Single elem
             if(head == tail){
                 tail = null;
             }

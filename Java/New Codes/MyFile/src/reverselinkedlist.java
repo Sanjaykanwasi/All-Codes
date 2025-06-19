@@ -91,7 +91,6 @@ public class reverselinkedlist {
             return size;
         }
         //Reversing through Recursion
-
         public Node reverserecursion(Node head){
 
             if(head == null || head.next ==null){
@@ -100,7 +99,7 @@ public class reverselinkedlist {
 
            Node Newhead = reverserecursion(head.next);
            head.next.next = head;
-           head = null;
+           head.next = null;
 
            return Newhead;
         }
@@ -156,8 +155,11 @@ public class reverselinkedlist {
         list.addend(4);
         list.addend(5);
         list.addend(6);
-
-        list.head = list.reverserecursion(list.head);
+        
+        list.printlist();
+        
+        list.reverselist();
+        
         list.printlist();
     }
 }

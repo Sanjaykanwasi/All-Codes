@@ -19,5 +19,11 @@ public class _30_stringbuilder {
         str.append(" Singh");
         str.append(" Kanwasi");
         System.out.println(str);
+
+        String str2 = "Rohit";
+
+        String str3 = str2.replace ( "R" , "M");
+        System.out.println(str2);
+        System.out.println(str3);
     }
 }

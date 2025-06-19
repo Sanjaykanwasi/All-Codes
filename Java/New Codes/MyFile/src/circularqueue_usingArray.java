@@ -17,7 +17,7 @@ public class circularqueue_usingArray {
         }
 
         //FULL
-        public static boolean isFull(){
+        public static boolean isFull(){ 
             return (rear + 1)%size == front;
         }
 
@@ -45,7 +45,7 @@ public class circularqueue_usingArray {
             }
 
             int result = arr[front];
-            
+            // Single element condition
             if(rear == front){
                 rear = front = -1;  
             } else {
