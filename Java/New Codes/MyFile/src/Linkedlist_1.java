@@ -99,7 +99,7 @@ public class Linkedlist_1 {
            head.next.next = head;
            head.next = null;
 
-           return Newhead;
+           return Newhead;          
         }
     // Reversing the list   
     public void reverselist(){

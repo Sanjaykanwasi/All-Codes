@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class BST {
-
     static class Node {
         int data;
         Node left;
@@ -11,7 +10,6 @@ public class BST {
             this.data = data;
         }
     }
-
     // Building the tree
     public static Node insert(Node root, int val) {
         if (root == null) {
@@ -30,7 +28,6 @@ public class BST {
     }
 
     // Searching
-
     public static boolean search(Node root, int key) {
         if (root == null) {
             return false;
@@ -131,6 +128,7 @@ public class BST {
         path.add(root.data);
         // leaf
         if (root.left == null && root.right == null) {
+            // Print path
             for (int i = 0; i < path.size(); i++) {
                 System.out.print(path.get(i) + "->");
             }

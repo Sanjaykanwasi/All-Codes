@@ -14,7 +14,6 @@ public class graph_bfs {
     }
     
     //BFS Traversal 
-
      public static void bfs(ArrayList<Edge> graph[], int v){
 
         Queue <Integer> q = new LinkedList<>();
@@ -35,6 +34,22 @@ public class graph_bfs {
         }
      }    
     
+    // DFS Traversal
+    public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]){
+        System.out.print(curr+ " ");
+        vis[curr] = true;
+
+        for(int i=0; i<graph[curr].size(); i++){
+            Edge e = graph[curr].get(i);
+
+            if(vis[e.des] == false){
+                dfs(graph, e.des, vis);
+            }
+        }
+
+    }
+
+
     //Building Graph
     public static void creategraph(ArrayList<Edge> graph[]){
 
@@ -79,7 +94,15 @@ public class graph_bfs {
         */
          ArrayList<Edge> graph[] = new ArrayList[v]; 
         creategraph(graph);
+        System.out.print("BFS :");
         bfs(graph, v);
-        
+        System.out.println();
+        System.out.print("DFS :");
+        boolean vis[] = new boolean[v];
+        for(int i=0; i<v; i++){
+            if(vis[i] == false){
+            dfs(graph, 0, vis);
+            }
+        }
     }
 }
